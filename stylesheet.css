@@ -69,6 +69,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding-top: 30px;
+	text-align: center;
 }
 #search-input {
 		/* height: 50px;
@@ -85,9 +86,9 @@ body {
     color: white;
 		/* -webkit-box-shadow: 6px 5px 15px #c6a8a8; */
     padding: 7px 22px;
-		position: inherit;
+		/* position: inherit; */
     text-decoration: none;
-    display: block;
+    /* display: block; */
     font-size: 15px;
 		background: #eb94d0;
 		background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
