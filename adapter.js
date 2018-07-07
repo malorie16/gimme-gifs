@@ -8,9 +8,11 @@ class Adapter {
 
   static searchGiphy(input){
     const offset = Math.floor(Math.random() * 22)
-    const baseUrl = `http://api.giphy.com/v1/gifs/search?q=random+${input}&limit=8&offset=${offset}&api_key=qgT88PjvT8DKVaX0ONx7gXv95YqtM7F8`
+    const baseUrl = `http://api.giphy.com/v1/gifs/search?q=${input}&limit=8&api_key=qgT88PjvT8DKVaX0ONx7gXv95YqtM7F8`
     return fetch(baseUrl).then(r => r.json())
   }
 
 
 }
+// &offset=${offset}
+// random+
