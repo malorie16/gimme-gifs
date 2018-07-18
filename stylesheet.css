@@ -70,6 +70,7 @@ body {
 	align-items: center;
 	padding-top: 30px;
 	text-align: center;
+
 }
 #search-input {
 		/* height: 50px;
@@ -79,7 +80,8 @@ body {
     border: 1px solid #ccc;
 		font-size: 30px;
 		text-align: center;
-		font-family: "Optima"
+		font-family: "Optima";
+		outline: none;
 }
 #search-button {
     border: none;
@@ -93,6 +95,7 @@ body {
 		background: #eb94d0;
 		background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
 		border-radius: 28px;
+		outline: none;
 
 }
 #search-button:hover {
